@@ -20,13 +20,13 @@
     },
     {
       "label": "clean release",
-      "command": "dotnet clean --configuration Release",
+      "command": "dotnet clean --configuration Debug",
       "type": "shell",
       "problemMatcher": "$msCompile"
     },
     {
       "label": "publish",
-      "command": "dotnet publish --configuration Release",
+      "command": "dotnet publish --configuration Debug",
       "type": "shell",
       "dependsOn": "clean release",
       "problemMatcher": "$msCompile"
